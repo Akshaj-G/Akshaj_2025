@@ -37,9 +37,19 @@ Creator of Student 2025
 - JV Tennis - 2nd year
 - Restoring Rainbows - 1st year
 
+# Linkedin
 
+>[Connect with me on LinkedIn](https://www.linkedin.com/in/akshaj-gurugubelli-11a66129b/)
 
+>[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/akshaj-gurugubelli-11a66129b/)
 
+<!-- # image
+
+![My photo](images/akshajg.jpeg)
+
+<img src="http://127.0.0.1:4100/Akshaj_2025/images/akshajg.jpeg" alt="drawing" style="width:100px;"/> 
+
+NOT WWORKING-->
 
 
 

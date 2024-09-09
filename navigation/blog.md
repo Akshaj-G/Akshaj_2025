@@ -1,6 +1,6 @@
 ---
-layout: blogs 
-title: Blogs
-search_exclude: true
-permalink: /blogs/
+layout: page 
+title: Journey
+permalink: /journey/
 ---
+skibidi
