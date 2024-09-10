@@ -20,6 +20,7 @@ minima:
 plugins:
   - jekyll-remote-theme
 header_pages:
+  - navigation/49ers.md
   - navigation/journey.md
   - navigation/blog.md
   - navigation/search.md
