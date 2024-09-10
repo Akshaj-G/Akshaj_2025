@@ -1,6 +1,6 @@
 ---
-layout:  
-title: Blogs
-permalink: /blogs/
+layout: page 
+title: Journey
+permalink: /journey/
 ---
-hi hi
+I How I setup my website
