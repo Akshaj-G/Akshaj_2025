@@ -7,7 +7,7 @@ permalink: /about/
 Creator of Student 2025
 
 # Who am I?
-> Hi my name is Akshaj, I'm a sophomore at Del Norte High School. I'm 15 years old. I have dad, mom and a brother who is 7 years old
+> Hi my name is Akshaj, I'm a sophomore at Del Norte High School. I'm 15 years old. I have dad, mom and a brother who is 7 years old.
 
 ---
 
@@ -50,6 +50,7 @@ Creator of Student 2025
 <img src="http://127.0.0.1:4100/Akshaj_2025/images/akshajg.jpeg" alt="drawing" style="width:100px;"/> 
 
 NOT WWORKING-->
+
 
 
 
