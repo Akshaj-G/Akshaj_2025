@@ -4,6 +4,14 @@ title: About
 permalink: /about/
 ---
 
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
 Creator of Student 2025
 
 # Who am I?
@@ -11,7 +19,8 @@ Creator of Student 2025
 
 ---
 
-![My photo](images/akshajg.jpeg)
+<!-- <img src="{{site.baseurl}}/images/akshajg.jpg" height="200" width="200" class="center"> - correct format -->
+
 
 
 # Why am I interested in Computer Science
@@ -28,7 +37,7 @@ Creator of Student 2025
 
 ---
 
-![My photo](images/image_123650291.JPG)
+<!-- <img src="{{site.baseurl}}/images/mytennis.jpg" height="200" width="200" class="center"> correct format-->
 
 # Clubs/Experience
 >- Akshaya Patra - 3rd year
@@ -43,13 +52,45 @@ Creator of Student 2025
 
 >[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/akshaj-gurugubelli-11a66129b/)
 
-<!-- # image
+# My journey so far....
+<div id="gallery-container" style="text-align: center;">
+  <img id="gallery-image" src="../images/gallery/akshajg1.jpg" alt="Image Gallery" style="width: 300px; height: auto;">
+  <br>
+  <button id="prev-btn">Previous</button>
+  <button id="next-btn">Next</button>
+</div>
 
-![My photo](images/akshajg.jpeg)
+<script>
+    // Array of image filenames located in the 'images' directory
+    const imageFilenames = [
+        "akshajg1.jpg",
+        "akshajg2.jpg",
+        "mytennis.jpg"
 
-<img src="http://127.0.0.1:4100/Akshaj_2025/images/akshajg.jpeg" alt="drawing" style="width:100px;"/> 
+    ];
 
-NOT WWORKING-->
+    let currentIndex = 0;  // To keep track of the currently displayed image
+
+    // Reference to the gallery image element
+    const galleryImage = document.getElementById('gallery-image');
+
+    // Function to update the displayed image
+    function updateImage() {
+        galleryImage.src = `../images/gallery/${imageFilenames[currentIndex]}`;
+        galleryImage.alt = imageFilenames[currentIndex];
+    }
+
+    // Event listeners for the buttons
+    document.getElementById('prev-btn').addEventListener('click', function() {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : imageFilenames.length - 1;
+        updateImage();
+    });
+
+    document.getElementById('next-btn').addEventListener('click', function() {
+        currentIndex = (currentIndex < imageFilenames.length - 1) ? currentIndex + 1 : 0;
+        updateImage();
+    });
+</script>
 
 
 
