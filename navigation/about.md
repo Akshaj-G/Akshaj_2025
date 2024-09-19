@@ -5,6 +5,15 @@ permalink: /about/
 ---
 
 <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #FFFFFF;
+        color: #FFFFFF;
+        margin: 20px;
+        line-height: 1.6;
+    }
+
+<style>
     .center {
         display: block;
         margin-left: auto;
@@ -91,10 +100,3 @@ Creator of Student 2025
         updateImage();
     });
 </script>
-
-
-
-
-
-
-
