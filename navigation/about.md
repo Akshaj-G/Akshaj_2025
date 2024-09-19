@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: About
 permalink: /about/
+toc: True
+comments: True
 ---
 
 <style>
