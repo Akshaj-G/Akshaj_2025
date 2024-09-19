@@ -283,6 +283,82 @@ You can play the Snake Game right here!
     sprite.style.transform = `scale(${0.2 * scale})`;
     mario.startResting();
   });
+</script>
 
+# Tower Defense
 
+<script>
+let canvas = document.createElement('canvas');
+canvas.width = 800;
+canvas.height = 600;
+document.body.appendChild(canvas);
+let ctx = canvas.getContext('2d');
 
+// Bloon object constructor
+function Bloon(x, y, radius, speed, color) {
+    this.x = x;
+    this.y = y;
+    this.radius = radius;
+    this.speed = speed;
+    this.color = color;
+}
+
+// Tower object constructor
+function Tower(x, y) {
+    this.x = x;
+    this.y = y;
+}
+
+// Create some sample bloons and a tower
+let bloons = [
+    new Bloon(0, 100, 15, 1, 'red'),
+    new Bloon(0, 200, 15, 1.2, 'blue'),
+    new Bloon(0, 300, 15, 1.5, 'green')
+];
+let towers = [new Tower(400, 300)];
+
+// Update bloon positions
+function updateBloons() {
+    bloons.forEach(bloon => {
+        bloon.x += bloon.speed;
+    });
+}
+
+// Draw the bloons and towers
+function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    // Draw bloons
+    bloons.forEach(bloon => {
+        ctx.beginPath();
+        ctx.arc(bloon.x, bloon.y, bloon.radius, 0, Math.PI * 2);
+        ctx.fillStyle = bloon.color;
+        ctx.fill();
+        ctx.closePath();
+    });
+    
+    // Draw towers
+    towers.forEach(tower => {
+        ctx.fillStyle = 'black';
+        ctx.fillRect(tower.x - 10, tower.y - 10, 20, 20);
+    });
+}
+
+// Game loop
+function gameLoop() {
+    updateBloons();
+    draw();
+    requestAnimationFrame(gameLoop);
+}
+
+// Start the game loop
+gameLoop();
+</script>
+
+ <script>
+  // Prevent the default bahavior the arrow
+  window.addEventListener("keydown", function(e) {
+    if (["ArrowUp", "ArrowDown", "ArrowRight"].includes(e.key))
+      e.preventDefault();
+   });
+   </script>

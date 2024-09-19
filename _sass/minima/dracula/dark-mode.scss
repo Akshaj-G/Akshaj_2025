@@ -2,9 +2,9 @@
     --default-canvas-filter: invert(0%);
 }
 
-$high-emph: rgba(white, 0.87);
+$high-emph: rgba(rgb(125, 232, 244), 0.87);
 $med-emph: rgba(white, 0.69); 
-$low-emph: rgba(white, 0.38);
+$low-emph: rgba(rgba(185, 132, 242, 0.937), 0.38);
 $dark-grey : #121212; 
 // $dark-grey : #1F1B24;
 $overlay: mix($dark-grey, white, 95%);
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-    color:$high-emph !important;
+    color:$low-emph !important;
 }
 
 .site-title, .site-title:visited, .site-nav, .page-link {
@@ -54,10 +54,23 @@ pre, code {
     color: $med-emph;
 }
 
-.btn {
-    background-color: $overlay !important;
-    color: $high-emph !important;
-    border-color: $overlay-light !important;
+ .btn {
+        display: inline-block;
+        margin-bottom: 1rem;
+        color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.2);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 0.3rem;
+        transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+      
+        &:hover {
+          color: rgba(0, 0, 0, 0.892);
+          text-decoration: none;
+          background-color: rgba(255, 255, 255, 0.883);
+          border-color: rgba(255, 255, 255, 0.3);
+        }
 }
 
 .btn:hover {
