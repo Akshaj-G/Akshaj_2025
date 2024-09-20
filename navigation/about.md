@@ -43,19 +43,20 @@ Creator of Student 2025
 # Sports
 >- I play on JV Tennis
 - I enjoy playing basketball
-- Luckily never broke a bone in my body
-- I also enjoy watching sports
+- I like the 49ers and the golden state warriors
+<!-- - Luckily never broke a bone in my body
+- I also enjoy watching sports -->
 
 ---
 
 <!-- <img src="{{site.baseurl}}/images/mytennis.jpg" height="200" width="200" class="center"> correct format-->
 
-# Clubs/Experience
+<!--# Clubs/Experience
 >- Akshaya Patra - 3rd year
 - DECA - 2nd year
 - Academic League - 2nd year
 - JV Tennis - 2nd year
-- Restoring Rainbows - 1st year
+- Restoring Rainbows - 1st year-->
 
 # Linkedin
 
