@@ -66,12 +66,12 @@ I also enjoy watching sports -->
 
 # My journey so far....
 <div id="gallery-container" style="text-align: center;">
-  <img id="gallery-image" src="../images/gallery/akshajg1.jpg" alt="Image Gallery" style="width: 300px; height: auto;">
+  <img id="gallery-image" src="../images/gallery/akshajg1.jpg" alt="Image Gallery" style="width: 300px; height: auto,cursor: pointer; box-shadow: 20px 20px 20px rgba(25, 150, 500, 50.3); border-radius: 500%;">
   <br>
   <button id="prev-btn"><---</button>
   <button id="next-btn">---></button>
 </div>
-
+ 
 <script>
     // Array of image filenames located in the 'images' directory
     const imageFilenames = [
