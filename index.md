@@ -6,6 +6,7 @@ image: /images/mario_animation.png
 hide: true
 ---
 # Home Page 😎 
+{% include nav/home4.html %}
 
 My journey starts here.
 My name is ***Akshaj***.
