@@ -14,8 +14,12 @@ permalink: /journey/
 - Merge Conflicts
 
 ## Program Function and Purpose
+- In Project #1
 - I was able to present various forms including texts, images, and audios
 - Galley of images, with buttons
+- In Project #3
+- Our game was meant to be an everyday, interactive game 
+- 
 
 ## Program Design and Development
 - Project Development
@@ -41,6 +45,9 @@ permalink: /journey/
  > ***Conditional, Boolean, If/Else:*** A boolean variable (has_socks) is used in an if/else statement. A nested conditional is when there an If/Else inside another If/Else statement.
 
  > ***Data Structures:*** Lists and tuples are used to store multiple hobbies and favorite hobbies, and their values are printed.
+## Process of Sprint 3
+
+First we started of cloning the repos and installing all the tools onto the systems. Then we brainstormed the ideas for our website. After coming up with a functional idea for our website we tried creating a structure that was unique but also suited with everyone else. Then we generated an image, with a guess and explanation box. Then we added cool features that approved your guess. After the we restructured it and added meaningful impacts for the buttons. Then we created a chatroom and kept on refining over time. As time went on, we kept on upgrading the style of the home page of our game and the chatroom. Finally, we added a feature that saved our chat logs, and also added a backend feature. 
 
 ## Summary of Trimester 1
 
