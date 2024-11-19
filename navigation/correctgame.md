@@ -3,12 +3,15 @@ layout: page
 title: Corrections Game
 permalink: /correctionsgame/
 ---
+
+<link rel="stylesheet" href="{{site.baseurl}}/navigation/correctgame.css">
+
 <div class="question1-container">
-   <h1>Zoom N Guess</h1>
+   <h1>College Board Review</h1>
 
 <div class="question-1">
        <div id="question-1" class="question-1-text">Question 1</div>
-       <div id="question-1-display" class="question-1-display text">Which of the following is a true statement about Internet communication?</div>
+       <div id="question-1-display" class="question-1-display-text">Which of the following is a true statement about Internet communication?</div>
    </div>
 
    <style>
