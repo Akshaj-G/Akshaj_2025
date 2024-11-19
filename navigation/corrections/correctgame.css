@@ -60,3 +60,17 @@ p, label, .info-box, .leaderboard-box li {
     text-align: center;
     color: #007BFF;
 }
+
+.summary {
+    background-color: #000000;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 123, 255, 0.5);
+    margin: 20px auto;
+    display: none; /* Hide initially */
+  }
