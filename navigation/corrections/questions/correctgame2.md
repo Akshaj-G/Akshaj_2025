@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: Corrections Game
-permalink: /correctionsgame/
+permalink: /correctionsgame2/
 ---
 
 <link rel="stylesheet" href="{{site.baseurl}}/navigation/corrections/correctgame.css">
@@ -42,29 +42,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="question-1">
        <div id="question-1" class="question-1-text">Question 1</div>
-       <div id="question-1-display" class="question-1-display-text">Which of the following is a true statement about Internet communication?
+       <div id="question-1-display" class="question-1-display-text">A population researcher is interested in predicting the number of births that will occur in a particular community. She created a computer model that uses data from the past ten years, including number of residents and the number of babies born. The model predicted that there would be 200 births last year, but the actual number of births last year was only 120. Which of the following strategies is LEAST likely to provide a more accurate prediction?
        </div>
    </div>
 
 
-<button id="answer-a" class="button">A. Devices from different manufacturers are required to run the same operating system to communicate over the Internet.</button>
+<button id="answer-a" class="button">A. Gathering data for additional years to try to identify patterns in birth rates</button>
 <div id="summary-a" class="summary" style="display:none;">
-  This statement is false. Devices from different manufacturers do not need the same operating system to communicate over the Internet, as long as they follow the same protocols like TCP/IP.
+  Good try. Gathering additional data may help the simulation to provide a more accurate prediction.
 </div>
 
-<button id="answer-b" class="button">B. Every device connected to the Internet is assigned a digital certificate by a certificate authority.</button>
+<button id="answer-b" class="button">B. Refining the model used in the computer simulation to more closely reflect the data from the past ten years
+</button>
 <div id="summary-b" class="summary" style="display:none;">
-  This statement is false. Not every device is assigned a digital certificate; digital certificates are typically used for secure communication, such as with websites (SSL/TLS).
+  Good try. Refining the model used in the simulation may help provide a more accurate prediction.
 </div>
 
-<button id="answer-c" class="button">C. Every device connected to the Internet is assigned an Internet protocol (IP) address.</button>
+<button id="answer-c" class="button">C. Removing as many details from the model as possible so that calculations can be performed quickly</button>
 <div id="summary-c" class="summary" style="display:none;">
-  This statement is true. Every device on the Internet is assigned a unique IP address to identify it and allow communication.
+  Brilliant. Removing details from the model may help it run quickly, but is unlikely to provide more accurate results.
 </div>
 
-<button id="answer-d" class="button">D. Every device connected to the Internet requires a high-bandwidth connection to enable redundant routing to each device.</button>
+<button id="answer-d" class="button">D. Taking into consideration more information about the community, such as the ages of residents</button>
 <div id="summary-d" class="summary" style="display:none;">
-  This statement is false. Not all devices need high-bandwidth connections, and redundant routing can occur without requiring high bandwidth.
+  Good try. Gathering additional data may help the simulation provide a more accurate prediction.
 </div>
 
    <style>
