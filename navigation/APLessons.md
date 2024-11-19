@@ -6,6 +6,8 @@ permalink: /APLessons/
 
 # College Board Test Review
 
+{% include nav/home5.html %}
+
 ## Question 15
 
 Question: Which of the following is a true statement about Internet communication?
