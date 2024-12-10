@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to update the displayed image
     function updatePage() {
-        galleryImage.src = `../corrections/question/${imageFilenames[currentIndex]}`;
+        galleryImage.src = `../corrections/question/${questionFilenames[currentIndex]}`;
         galleryImage.alt = questionFilenames[currentIndex];
     }
 
