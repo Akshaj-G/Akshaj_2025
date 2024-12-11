@@ -30,4 +30,5 @@ header_pages:
   - navigation/games.md
   - navigation/CSPlesson.md
   - navigation/APLessons.md
+  - navigation/RestfulApi.md
   - README4YML.md
