@@ -580,3 +580,5 @@ Username: Ubuntu
 Username: Ubuntu14*&*41 
 Three musketterss
   
+sudo mv nginx_file nginx.stu
+moves the file into a folder 
