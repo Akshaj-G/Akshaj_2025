@@ -21,14 +21,16 @@ minima:
 # remote_theme: pages-themes/time-machine@v0.2.0
 plugins:
   - jekyll-remote-theme
-header_pages:
-  - navigation/49ers.md
-  - navigation/journey.md
-  - navigation/blog.md
-  - navigation/search.md
-  - navigation/about.md
-  - navigation/games.md
-  - navigation/CSPlesson.md
-  - navigation/APLessons.md
-  - navigation/RestfulApi.md
-  - README4YML.md
+
+minima:
+  nav_pages:
+    - navigation/49ers.md
+    - navigation/journey.md
+    - navigation/blog.md
+    - navigation/search.md
+    - navigation/about.md
+    - navigation/games.md
+    - navigation/CSPlesson.md
+    - navigation/APLessons.md
+    - navigation/RestfulApi.md
+    - README4YML.md
